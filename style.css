@@ -1,0 +1,246 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-6');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+body{
+	background: linear-gradient(180deg, rgba(255, 0, 0, 0.2) 30.88%, rgba(255, 125, 113, 0.2) 70.58%, rgba(255, 210, 206, 0.2) 100.83%, rgba(255, 255, 255, 0.2) 151.88%),
+	linear-gradient(0deg, #FFFFFF, #FFFFFF);
+	font-family: 'Gotham Light', sans-serif;
+	color: #77242E;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 14px;
+
+}
+
+::-webkit-scrollbar-track {
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,146,144,1) 63%, rgba(138,104,49,0.44021358543417366) 100%) ;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 1em;
+
+}
+
+header{
+	background-image: url(img/bolo-background.jpg);
+	width: 100%;
+	height: 680px;
+	
+
+	
+}
+
+.logo{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	top: 150px;
+	border-style:solid ;
+	border-color: #ffffff;
+	border-width: .2em;
+	border-radius: 50%;
+}
+
+.box-transparente{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #00000043;
+	width: 100%;
+	height: 280px;
+	box-shadow: 0px 4px 20px 0px #000000B0;
+	
+}
+
+.navbar-1{
+	display: flex;
+	flex-direction: row;
+	margin-top: 160px;
+	margin-left: 32px;
+	color: #FFFFFF;
+	margin-right: 120px;
+}
+
+.navbar-1 li{
+	margin-left: 1em;
+	list-style: none;
+	padding: 1em;
+
+}	
+
+.navbar{
+	display: flex;
+	flex-direction: row;
+	margin-top: 160px;
+	color: #FFFFFF;
+	margin-right: 120px;
+	font-size: 18px;
+
+}
+
+.navbar li{
+	margin-left: 1em;
+	list-style: none;
+	padding: 1em;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 48px;
+	padding: 28px 0 12px 0;
+	font-family: 'Gotham', sans-serif;
+
+}
+
+.paragrafo-apresentacao{
+	text-align: center;
+	font-size: 26px;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+.cardapio{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	justify-content: space-around;
+	margin-bottom: 60px;
+}
+
+.bolo{
+	width: 400px;
+}
+
+.bolo img{
+	width: 400px;
+	height: 600px;
+	border-radius: 1em;
+}
+
+.bolo p{
+	font-size: 18px;
+}
+
+h3{
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.quem-somos{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quem-somos h4{
+	text-align: center;
+	margin-bottom: 32px;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.quem-somos p{
+	width: 800px;
+	margin-bottom: 32px;
+	font-size: 22px;
+	font-family: 'Gotham', sans-serif;
+
+}
+
+spam{
+	font-family: 'Gotham Black', sans-serif;
+	
+}
+
+.contato{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contato h4{
+	font-size: 32px;
+	margin-top: 60px;
+	font-weight: 600;
+	
+}
+
+.contato ul{
+	list-style: none;
+	margin: 30px
+}
+.contato li{
+	padding: 8px;
+	font-size: 20px;
+}
+
+.consideracoes{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column	;
+	align-items: center;
+}
+
+.consideracoes p{
+	margin-top: 20px;
+	width: 800px;
+	font-size: 24px;
+	font-family: 'Gotham Light', sans-serif;
+	font-style: italic;
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer h4{
+	margin-top: 100px;
+	margin-bottom: 60px;
+	font-size: 24px;
+	font-weight: 600;
+
+}
+
+footer ul{
+	list-style: none;
+	height: 100%;
+	margin-bottom: 30px;
+}
